@@ -52,7 +52,7 @@ elif user_input == "2006":
     print("You are a dog!")
     print("Who's a good boy!")
     time.sleep(2)
-    print("who let the dogs out!")
+    print("WHO LET THE DOGS OUT!")
 
 elif user_input == "2007":
     print("You are a plump pig!")
@@ -82,19 +82,82 @@ elif user_input == "2011":
 
 
 print('')
+
+
+
 # See the a01_pets.py for examples
 
 
 ######################################################################
 # (Required) Task 2
-# TODO Ask the user for their friend's birth year
+
+import time
+user_input = (input("What is your friends birth year?"))
+
+if user_input == "2000":
+    print("They are a fire breathing dragon too.")
+    print("Hot, Hot!")
+
+elif user_input == "2001":
+    print("They are a slimy snake!")
+    print("Ewww!")
+
+elif user_input == "2002":
+    print("They are a horse!")
+    print("NEIGHHHHHH!")
+
+elif user_input == "2003":
+    print("They are a goat!")
+    time.sleep(2)
+    print("Another Greatest Of All Time!")
+
+elif user_input == "2004":
+    print("They are a monkey!")
+    time.sleep(2)
+    print("Swinging in the beautiful trees?")
+
+elif user_input == "2005":
+    print("They are a rooster!")
+    time.sleep(2)
+    print("BA-CAWk!")
+
+elif user_input == "2006":
+    print("They are a dog!")
+    time.sleep(2)
+    print("WHO LET THE DOGS OUT!")
+
+elif user_input == "2007":
+    print("They are a pig!")
+    time.sleep(2)
+    print("Who has the bacon!")
+
+elif user_input == "2008":
+    print("They are a rat!")
+    print("Ewwwww...nasty!")
+    time.sleep(2)
+    print("Just kidding...")
+
+elif user_input == "2009":
+    print("They are a Ox!")
+    time.sleep(2)
+    print("Such majestic animals!")
+
+elif user_input == "2010":
+    print("They are a Tiger!")
+    time.sleep(2)
+    print("War-Eagle...SIKE!!! I'm a Alabama fan...ROLL TIDE! :) ")
+
+elif user_input == "2011":
+    print("They are a rabbit!")
+    time.sleep(2)
+    print("Awwwweee...cute!")
 
 
-# TODO Similar to above, check your friend's year using if conditionals, and print the correct animal for that year
-
+print('')
 
 ######################################################################
 # (Optional) Task 3
+
 # TODO Check for compatibility between your birth year and your friend's birth year
 # NOTE: You can always assume the first input is your birth year (i.e., 1982 for me).
 # This way, you are not writing a ton of code to consider every possibility.
